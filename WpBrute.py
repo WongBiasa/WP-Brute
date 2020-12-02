@@ -17,6 +17,9 @@ def loadLst(fileName, lstName):
 
 if len(sys.argv) <= 1:
     print 'WP-crack v1.0'
+    print '==================='
+    print '=   By WhoMHW     ='
+    print '==================='
     print ''
     print ' __      ____________          __________                __ '         
     print'/  \    /  \______   \         \______   \_______ __ ___/  |_  ____  '
