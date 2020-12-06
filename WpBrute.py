@@ -4,6 +4,7 @@ import sys
 import urllib2, urllib
 import cookielib
 import re
+import requests
 
 #
 #functions
@@ -244,7 +245,7 @@ try:
     print result
     sys.exit()
 except urllib2.URLError, e:
-    print "\n\t[!] Moho Periksa koneksimu dulu tod:v!"
+    print "\n\t[!] Mohon Periksa koneksimu dulu tod:v!"
 except (KeyboardInterrupt):
     print "\n\t[!] Kenapa Dibatalkan ?"
 
